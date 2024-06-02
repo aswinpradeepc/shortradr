@@ -1,0 +1,10 @@
+{% extends 'home/base.html' %}
+{% block title %}Shortened URL{% endblock %}
+{% block content %}
+<section>
+    <h3>Your Shortened URL:</h3>
+    <p><a href="http://{{ domain }}/{{ short_url.short_code }}">http://{{ domain }}/{{ short_url.short_code }}</a></p>
+    <p>Original URL: {{ short_url.original_url }}</p>
+    <p>Click Count: {{ short_url.click_count }}</p>
+</section>
+{% endblock %}
