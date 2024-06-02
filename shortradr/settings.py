@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-yn-314&jnssutogw2=po$c+_^&5d9f503#9%*h7p&a*o_3*lib
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['radr.in','www.radr.in']
 
 
 # Application definition
